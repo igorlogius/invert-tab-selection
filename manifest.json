@@ -1,0 +1,25 @@
+{
+  "author": "igorlogius",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "commands": {
+    "invert-tab-selection": {
+      "suggested_key": {
+        "default": "Ctrl+Alt+I"
+      }
+    }
+  },
+  "description": "invertes the active tab selection",
+  "icons": {
+  },
+  "manifest_version": 2,
+  "name": "Invert Tab Selection",
+  "permissions": [
+    "tabs",
+    "menus"
+  ],
+  "version": "1.0.0"
+}
