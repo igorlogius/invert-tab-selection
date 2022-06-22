@@ -11,15 +11,10 @@ async function invertTabSelection(/*info, tab*/) {
 }
 
 browser.menus.create({
-	id: extname,
 	title: extname,
 	contexts: ["tab"],
-	onclick: invertTabSelection
+    command: "_execute_browser_action"
 });
 
-browser.commands.onCommand.addListener(function(command) {
-    if (command === extname) {
-        invertTabSelection();
-    }
-});
+browser.browserAction.onClicked.addListener(invertTabSelection);
 

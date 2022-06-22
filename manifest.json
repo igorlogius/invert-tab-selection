@@ -5,8 +5,11 @@
       "background.js"
     ]
   },
+  "browser_action": {
+    "default_area": "tabstrip"
+  },
   "commands": {
-    "Invert Tab Selection": {
+    "_execute_browser_action": {
       "suggested_key": {
         "default": "Ctrl+Alt+I"
       }
@@ -22,5 +25,5 @@
     "tabs",
     "menus"
   ],
-  "version": "1.0.2"
+  "version": "1.1.2"
 }
