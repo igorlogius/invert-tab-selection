@@ -14,6 +14,7 @@
   },
   "description": "invertes the active tab selection",
   "icons": {
+    "128": "icon.png"
   },
   "manifest_version": 2,
   "name": "Invert Tab Selection",
@@ -21,5 +22,5 @@
     "tabs",
     "menus"
   ],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
