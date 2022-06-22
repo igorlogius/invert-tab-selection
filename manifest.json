@@ -6,7 +6,7 @@
     ]
   },
   "commands": {
-    "invert-tab-selection": {
+    "Invert Tab Selection": {
       "suggested_key": {
         "default": "Ctrl+Alt+I"
       }
@@ -22,5 +22,5 @@
     "tabs",
     "menus"
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

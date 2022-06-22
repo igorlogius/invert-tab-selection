@@ -12,7 +12,7 @@ async function invertTabSelection(/*info, tab*/) {
 
 browser.menus.create({
 	id: extname,
-	title: "Invert Tab Selection",
+	title: extname,
 	contexts: ["tab"],
 	onclick: invertTabSelection
 });
