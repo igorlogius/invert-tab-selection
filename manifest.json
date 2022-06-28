@@ -15,7 +15,7 @@
       }
     }
   },
-  "description": "invertes the active tab selection",
+  "description": "Invert the current tab selection",
   "icons": {
     "128": "icon.png"
   },
@@ -25,5 +25,5 @@
     "tabs",
     "menus"
   ],
-  "version": "1.1.2"
+  "version": "1.1.3"
 }
